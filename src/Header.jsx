@@ -12,16 +12,18 @@ class Header extends Component {
           <h1>c. 1983</h1>
         </div>
         <nav>
-          <select>change theme
+          <select>
             <option defaultValue>Off-White</option>
             <option>Off-Black</option>
           </select>
-          <a href="#"><svg className="menu-icon"></svg></a>
-          <ul>
-            <li><a href="">"ABOUT"</a></li>
-            <li><a href="">"PROJECTS"</a></li>
-            <li><a href="">"CONTACT"</a></li>
-          </ul>
+          <details>
+          <summary><svg className="menu-icon"></svg></summary>
+            <ul>
+              <li><a href="">"ABOUT"</a></li>
+              <li><a href="">"PROJECTS"</a></li>
+              <li><a href="">"CONTACT"</a></li>
+            </ul>
+          </details>
         </nav>
       </header>
     )

@@ -32,11 +32,6 @@ Header h1 sup {
   font-size: 50%;
 }
 
-Header nav {
-  /* display: flex; */
-  /* justify-content: space-between; */
-}
-
 Header nav ul {
   display: flex;
   flex-direction: column;
@@ -45,7 +40,6 @@ Header nav ul {
   align-items: end;
   list-style: none;
   padding: 1rem;
-  /* min-width: 50%; */
 }
 
 Header nav ul li {
@@ -61,7 +55,11 @@ Header svg {
   background-image: url('./menu.svg');
   height: 40px;
   width: 40px;
+}
 
+Header details::-webkit-details-marker,
+Header summary::-webkit-details-marker {
+  display: none;
 }
 
 
