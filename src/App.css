@@ -12,7 +12,7 @@ Header {
   background-color: white;
   color: black;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   height: contain;
   justify-content: space-between;
   -webkit-box-shadow: 2px 2px 4px black;
@@ -20,7 +20,7 @@ Header {
 }
 
 Header .header-text-block {
-  padding: 2rem;
+  padding: 1rem;
   text-align: left;
 }
 
@@ -55,6 +55,14 @@ Header nav ul li {
 Header a {
   text-decoration: none;
   color: black;
+}
+
+Header svg {
+  background-image: url('./menu.svg');
+  /* background-size: cover; */
+  height: 40px;
+  width: 40px;
+
 }
 
 

@@ -16,6 +16,7 @@ class Header extends Component {
             <option defaultValue>Off-White</option>
             <option>Off-Black</option>
           </select>
+          <a href="#"><svg className="menu-icon"></svg></a>
           <ul>
             <li><a href="">"ABOUT"</a></li>
             <li><a href="">"PROJECTS"</a></li>
