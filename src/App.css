@@ -59,7 +59,6 @@ Header a {
 
 Header svg {
   background-image: url('./menu.svg');
-  /* background-size: cover; */
   height: 40px;
   width: 40px;
 
