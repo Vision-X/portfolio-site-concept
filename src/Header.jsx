@@ -7,7 +7,7 @@ class Header extends Component {
         <div className="header-text-block">
         {/*  <small>"HEADER"</small> */}
           <h1>Off-White<sup>TM</sup> for MICHAEL MARLOW</h1>
-          <h1>"PORTFOLIO SITE" </h1>
+          <h1>"PORTFOLIO SITE"</h1>
           <h1>Atlanta, Georgia USA</h1>
           <h1>c. 1983</h1>
         </div>
