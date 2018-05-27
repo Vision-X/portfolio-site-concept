@@ -95,7 +95,7 @@ section h2 {
 .red-tag {
   background-color: transparent !important;
   /* background-size: 400px 81px; */
-  height: 90px;
+  height: 60px;
   /* width: inherit; */
   /* width: 200px; */
   /* background-image: url('./red-tag-opaque.jpg'); */
@@ -107,9 +107,9 @@ section h2 {
 .content-block {
   margin: 2rem 0 0 0;
   padding: 1rem;
-  height: 25vh;
   width: contain;
-  border-radius: 6px;
+  border-left: 4px solid black;
+  /* border-radius: 6px;
   -webkit-box-shadow: 1px 1px 6px black;
-  box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 20px black; */
 }
