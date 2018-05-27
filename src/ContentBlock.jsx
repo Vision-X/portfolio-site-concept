@@ -9,7 +9,7 @@ class ContentBlock extends Component {
         <br />
         <h3>"DESCRIPTION": {this.props.description}</h3>
         <br />
-        <h3>"RESOURCE": {this.props.resource}</h3>
+        <h3>"TYPE": {this.props.type}</h3>
       </div>
     );
   }

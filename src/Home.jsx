@@ -8,8 +8,9 @@ class Home extends Component {
       <section>
         <h2>"WEBSITE"</h2>
         <img src={redTag} className="red-tag"></img>
-        <ContentBlock title="ABOUT" description="SUPPP" resource="FACK" />
-        <ContentBlock />
+        <ContentBlock title="ABOUT" description="ABOUT M.M." type="WEBPAGE" />
+        <ContentBlock title="PROJECTS" description="PROJECTS for M.M." type="WEBPAGE" />
+        <ContentBlock title="CONTACT" description="CONTACT M.M." type="WEBPAGE" />
       </section>
     )
   }
