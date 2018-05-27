@@ -29,7 +29,6 @@ class Header extends Component {
           </select>
 
           <nav className="drop">
-            <svg onMouseOver={this._onHover} className="menu-icon"></svg>
             <ul id="menu">
               <li><a href="">"ABOUT"</a></li>
               <li><a href="">"PROJECTS"</a></li>

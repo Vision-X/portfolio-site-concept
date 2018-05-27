@@ -17,6 +17,7 @@ Header {
   justify-content: space-between;
   -webkit-box-shadow: 2px 2px 4px black;
   box-shadow: 2px 2px 4px black;
+  width: 100%;
 }
 
 Header .header-text-block {
@@ -80,18 +81,35 @@ Header summary::-webkit-details-marker {
 
 section {
   padding: 1rem;
-  height: 80vh;
-  /* background-color: black;
-  color: white; */
+  min-height: 80vh;
+  /* background-image: url('./stripes-black-white-diagonal.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+section h2 {
+  -webkit-text-shadow: 2px 2px 4px white;
+  text-shadow: 0px 0px 100px white;
 }
 
 .red-tag {
   background-color: transparent !important;
   /* background-size: 400px 81px; */
   height: 90px;
+  /* width: inherit; */
   /* width: 200px; */
   /* background-image: url('./red-tag-opaque.jpg'); */
   /* background-repeat: no-repeat; */
   /* -webkit-transform: rotate(220deg);
   transform: rotate(220deg); */
+}
+
+.content-block {
+  margin: 2rem 0 0 0;
+  padding: 1rem;
+  height: 25vh;
+  width: contain;
+  border-radius: 6px;
+  -webkit-box-shadow: 1px 1px 6px black;
+  box-shadow: 0px 0px 20px black;
 }
