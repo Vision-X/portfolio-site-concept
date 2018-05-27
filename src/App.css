@@ -57,9 +57,9 @@ Header a {
 
 Header svg {
   background-image: url('./menu.svg');
-  /* background-position: center; */
-  height: 40px;
-  width: 40px;
+  background-position: center;
+  height: 0px;
+  width: 0px;
 }
 
 Header summary {
@@ -86,6 +86,7 @@ section {
 }
 
 .red-tag {
+  background-color: transparent !important;
   /* background-size: 400px 81px; */
   height: 90px;
   /* width: 200px; */

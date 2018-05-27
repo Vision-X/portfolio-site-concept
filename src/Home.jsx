@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import redTag from './red-tag-opaque.jpg';
+import redTag from './red-tag-opaque4.png';
 
 class Home extends Component {
   render() {
