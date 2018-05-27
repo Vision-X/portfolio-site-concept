@@ -10,7 +10,6 @@ class Home extends Component {
         <img src={redTag} className="red-tag"></img>
         <ContentBlock title="ABOUT" description="SUPPP" resource="FACK" />
         <ContentBlock />
-        <ContentBlock />
       </section>
     )
   }
